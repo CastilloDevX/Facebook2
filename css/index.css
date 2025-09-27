@@ -1,0 +1,7 @@
+#menu a:nth-child(1) {
+    border-bottom: #0044ff solid 5px;
+}
+
+#menu a:nth-child(1) img {
+    filter: invert(16%) sepia(100%) saturate(5000%) hue-rotate(220deg) brightness(100%) contrast(100%);
+}

@@ -1,0 +1,123 @@
+#menu a:nth-child(2) {
+    border-bottom: #0044ff solid 5px;
+}
+
+#menu a:nth-child(2) img {
+    filter: invert(16%) sepia(100%) saturate(5000%) hue-rotate(220deg) brightness(100%) contrast(100%);
+}
+
+main {
+    display: block;
+}
+
+#profile-info {
+    margin: auto;
+    width: 100%;
+}
+
+#cover {
+    width: 100%;
+    height: 450px;
+
+    max-width: 1280px;
+
+
+    border-radius: 1rem;
+    margin-top: -1rem;
+
+    margin: auto;
+}
+
+#cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 1rem;
+}
+
+#user-info {
+    background-color: #242728;
+}
+
+#user-general-info {
+    padding-left: 2rem;
+}
+
+#user-avatar {
+    position: relative;
+    height: 6rem;
+}
+
+#user-avatar img {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    width: 12rem;
+
+    background-color: #171717;
+    padding: 5px;
+    border-radius: 50%;
+
+    display: block;
+    margin: auto;
+}
+
+#user-general-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+#user-general-info p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#user-general-info p:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #b0b3b8;
+}
+
+#info-about-me {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+
+#about-user {
+    margin: auto;
+    margin-top: 1rem;
+
+    width: 100%;
+    max-width: 1280px;
+
+    display: block;
+}
+
+.user-section {
+    background-color: #242728;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+#about-user .title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+#info-about-me {
+    background-color: #242728;
+    border-radius: 10px;
+}
+
+#no-posts {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    height: 5rem;
+}
