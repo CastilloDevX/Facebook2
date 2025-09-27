@@ -11,140 +11,144 @@
     <link rel="stylesheet" href="css/profile.css" />
   </head>
   <body>
-    <header>
-      <a href="index.html" id="logo">
-        <img src="img/icon.png" alt="Facebook icon" />
-      </a>
+    <div id="root">
+      <header>
+        <a href="index.html" id="logo">
+          <img src="img/icon.png" alt="Facebook icon" />
+        </a>
 
-      <div id="menu">
-        <a href="/">
-          <img src="img/home.png" alt="Home img" />
-        </a>
-        <a href="/Contacts.html">
-          <img src="img/friends.png" alt="Friends img" />
-        </a>
-        <a href="#">
-          <img src="img/videos.png" alt="Videos img" />
-        </a>
-        <a href="#">
-          <img src="img/marketplace.png" alt="Marketplace img" />
-        </a>
-        <a href="#">
-          <img src="img/groups.png" alt="Groups img" />
-        </a>
-      </div>
-
-      <a href="CastilloQueh.html" id="avatar">
-        <img src="content/avatars/profile-3.jpg" alt="User Avatar icon" />
-      </a>
-    </header>
-
-    <main>
-      <div id="profile-info">
-        <div id="cover">
-          <img src="content/covers/cover-atom.png" alt="">
+        <div id="menu">
+          <a href="/">
+            <img src="img/home.png" alt="Home img" />
+          </a>
+          <a href="/Contacts.html">
+            <img src="img/friends.png" alt="Friends img" />
+          </a>
+          <a href="#">
+            <img src="img/videos.png" alt="Videos img" />
+          </a>
+          <a href="#">
+            <img src="img/marketplace.png" alt="Marketplace img" />
+          </a>
+          <a href="#">
+            <img src="img/groups.png" alt="Groups img" />
+          </a>
         </div>
 
-        <div id="user-info">
-          <div id="user-avatar">
-            <img src="content/avatars/profile-2.jpg" alt="" />
+        <a href="CastilloQueh.html" id="avatar">
+          <img src="content/avatars/profile-3.jpg" alt="User Avatar icon" />
+        </a>
+      </header>
+
+      <main>
+        <div id="profile-info">
+          <div id="cover">
+            <img src="content/covers/cover-atom.png" alt="">
           </div>
 
-          <div id="user-general-info">
-            <p>MrAtom Dev</p>
-            <p>15K amigos</p>
+          <div id="user-info">
+            <div id="user-avatar">
+              <img src="content/avatars/profile-2.jpg" alt="" />
+            </div>
+
+            <div id="user-general-info">
+              <p>MrAtom Dev</p>
+              <p>15K amigos</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div id="about-user">
-        <div id="about-me">
-          <section id="info-about-me" class="user-section">
-            <p class="title">Acerca de mi</p>
+        <div id="about-user">
+          <div id="about-me">
+            <section id="content-section">
+              <section id="info-about-me" class="user-section">
+                <p class="title">Acerca de mi</p>
 
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              voluptatibus deleniti soluta magnam similique tempora labore! Odit
-              repellat reprehenderit cum molestiae voluptatum autem ab inventore
-              reiciendis eius qui laboriosam distinctio aut soluta, labore enim
-              voluptatibus recusandae dignissimos veniam illo voluptates eos
-              architecto! Tenetur cumque ipsum vel dicta alias reiciendis
-              recusandae modi, assumenda quae, quam pariatur voluptate impedit
-              provident necessitatibus quibusdam explicabo dignissimos ad
-              possimus voluptates ducimus nulla odio sed officiis. 🚀
-            </p>
-          </section>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+                  voluptatibus deleniti soluta magnam similique tempora labore! Odit
+                  repellat reprehenderit cum molestiae voluptatum autem ab inventore
+                  reiciendis eius qui laboriosam distinctio aut soluta, labore enim
+                  voluptatibus recusandae dignissimos veniam illo voluptates eos
+                  architecto! Tenetur cumque ipsum vel dicta alias reiciendis
+                  recusandae modi, assumenda quae, quam pariatur voluptate impedit
+                  provident necessitatibus quibusdam explicabo dignissimos ad
+                  possimus voluptates ducimus nulla odio sed officiis. 🚀
+                </p>
+              </section>
+            </section>
+          </div>
+
+          <div id="posts">
+            <section id="content">
+              <p class="title user-section">Publicaciones</p>
+                  <div class="post">
+                      <div class="post-header">
+                          <a href="MrAtomDev.html" class="post-profile">
+                              <img class="post-avatar" src="content/avatars/profile-2.jpg" alt="">
+
+                              <p> MrAtom Dev
+                              </br> <span>Hace 1 año</span> </p>
+                          </a>
+
+                          <div class="post-content">
+                              <p>Ekisde</p>
+                          </div>
+                      </div>
+
+                      <div class="post-img">
+                          <img src="content/posts/post1.jpeg" alt="">
+                      </div>
+
+                      <div class="post-info">
+                          <div class="reactions">
+                              <img src="img/like.png" alt="">
+                              <p>10 mil</p>
+                          </div>
+
+                          <div class="info">
+                              <p>0</p>
+                              <img src="img/share.png" alt="">
+                          </div>
+                      </div>
+
+                      <hr>
+                      <div class="interactions">
+                          <a>   
+                              <img src="img/nolike.png" alt="">
+                              <p>Me gusta</p>
+                          </a>
+
+                          <a>
+                              <img src="img/share.png" alt="">
+                              <p>Compartir</p>
+                          </a>    
+                      </div>
+                      <hr>
+                      
+                      <div class="post-comments"></div>
+
+                      <div class="post-mk-comment">
+                          <input type="text" placeholder="Comenta algo">
+                          <img src="img/send.png" alt="">
+                      </div>
+                  </div>
+            </section>
+          </div>
         </div>
+      </main>
 
-        <div id="posts">
-          <section id="content">
-            <p class="title user-section">Publicaciones</p>
-                <div class="post">
-                    <div class="post-header">
-                        <a href="MrAtomDev.html" class="post-profile">
-                            <img class="post-avatar" src="content/avatars/profile-2.jpg" alt="">
+      <a id="bubble-btn-contacts" href="Contacts.html">
+        <img src="img/friends.png" alt="" />
+      </a>
 
-                            <p> MrAtom Dev
-                            </br> <span>Hace 1 año</span> </p>
-                        </a>
-
-                        <div class="post-content">
-                            <p>Ekisde</p>
-                        </div>
-                    </div>
-
-                    <div class="post-img">
-                        <img src="content/posts/post1.jpeg" alt="">
-                    </div>
-
-                    <div class="post-info">
-                        <div class="reactions">
-                            <img src="img/like.png" alt="">
-                            <p>10 mil</p>
-                        </div>
-
-                        <div class="info">
-                            <p>0</p>
-                            <img src="img/share.png" alt="">
-                        </div>
-                    </div>
-
-                    <hr>
-                    <div class="interactions">
-                        <a>   
-                            <img src="img/nolike.png" alt="">
-                            <p>Me gusta</p>
-                        </a>
-
-                        <a>
-                            <img src="img/share.png" alt="">
-                            <p>Compartir</p>
-                        </a>    
-                    </div>
-                    <hr>
-                    
-                    <div class="post-comments"></div>
-
-                    <div class="post-mk-comment">
-                        <input type="text" placeholder="Comenta algo">
-                        <img src="img/send.png" alt="">
-                    </div>
-                </div>
-          </section>
-        </div>
-      </div>
-    </main>
-
-    <a id="bubble-btn-contacts" href="Contacts.html">
-      <img src="img/friends.png" alt="" />
-    </a>
-
-    <footer>
-      <p>
-        Facebook 2
-        <br />
-        <span> © Jose Manuel Castillo Queh, 2025 </span>
-      </p>
-    </footer>
+      <footer>
+        <p>
+          Facebook 2
+          <br />
+          <span> © Jose Manuel Castillo Queh, 2025 </span>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>

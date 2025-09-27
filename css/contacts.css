@@ -41,3 +41,22 @@ main h1 {
     font-weight: bold;
     text-align: center;
 }
+
+/* RESPONSIVE */
+
+/* Phones */
+@media (max-width: 769px) { 
+    #contacts-list {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    #contacts-list a {
+        display: flex;
+        width: 100%;
+    }
+
+    #contacts-list a img {
+        width: 70px;
+    }
+}

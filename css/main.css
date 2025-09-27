@@ -28,10 +28,12 @@ body {
     background-color: #171717;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+
+    overflow-x: hidden !important;
 }
 
 #root {
-    overflow-x: none;
+    overflow-x: hidden;
 }
 
 header {
@@ -302,11 +304,11 @@ main section {
     cursor: pointer;
 }   
 
-#contacts {
+#contacts-field {
     padding: 1rem;
 }
 
-#contacts h2{
+#contacts-field h2{
     color: #b0b3b8;
     font-size: 1.2rem;
     margin-bottom: 10px;
@@ -370,4 +372,42 @@ footer p{
 footer p span {
     font-size: 1.2rem;
     color: #b0b3b8;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 769px) {
+    #menu {
+        justify-content: center;
+    }
+
+    #menu a {
+        padding:0 1rem;
+    }
+
+    #menu a[href="#"] {
+        display: none;
+    }
+
+    #feed section:nth-child(1), #feed section:nth-child(3) {
+        display: none;
+    }
+
+    #bubble-btn-contacts {
+        width: 2rem;
+        height: 2rem;
+
+        bottom: 1rem;
+        right: 1rem;
+    }
+
+    #bubble-btn-contacts img{
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+/* Tablets and computers */
+@media (min-width: 1025px) { 
+
 }
